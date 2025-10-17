@@ -29,7 +29,7 @@ const DropDownMenu =  ({ user, initialStocks }: {user: User, initialStocks: Stoc
             <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="flex items-center gap-3 text-gray-4 hover:text-yellow-500">
                     <Avatar className="h-8 w-8">
-                        <AvatarImage src="https://avatars.githubusercontent.com/u/153423955?s=280&v=4" />
+                        <AvatarImage src="https://i.pinimg.com/736x/e6/cf/82/e6cf825eb88f0699b5a99a7d488f9567.jpg" />
                         <AvatarFallback className="bg-yellow-500 text-yellow-900 text-sm font-bold">
                             {user.name[0]}
                         </AvatarFallback>
@@ -45,7 +45,7 @@ const DropDownMenu =  ({ user, initialStocks }: {user: User, initialStocks: Stoc
                 <DropdownMenuLabel>
                     <div className="flex relative items-center gap-3 py-2">
                         <Avatar className="h-10 w-10">
-                            <AvatarImage src="https://avatars.githubusercontent.com/u/153423955?s=280&v=4" />
+                            <AvatarImage src="https://i.pinimg.com/736x/e6/cf/82/e6cf825eb88f0699b5a99a7d488f9567.jpg" />
                             <AvatarFallback className="bg-yellow-500 text-yellow-900 text-sm font-bold">
                                 {user.name[0]}
                             </AvatarFallback>
